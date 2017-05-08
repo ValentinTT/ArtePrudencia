@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_quotes"
+            android:icon="@drawable/ic_menu_all_quotes"
+            android:title="All Quotes"/>
+        <item
+            android:id="@+id/nav_daily_quote"
+            android:icon="@drawable/ic_menu_daily_quote"
+            android:title="Daily Quote"/>
+        <item
+            android:id="@+id/nav_favs"
+            android:icon="@drawable/ic_menu_favourite_quote"
+            android:title="Favs"/>
+        <!--<item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share"/> -->
+    </group>
+
+    <item android:title="Configurations">
+        <menu>
+            <item
+                android:id="@+id/nav_conf"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="Settings"/>
+        </menu>
+    </item>
+
+</menu>
