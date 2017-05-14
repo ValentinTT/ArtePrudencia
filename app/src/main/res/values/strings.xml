@@ -5,4 +5,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="notification_tiker">Tiker text</string>
+    <string name="notification_title">Titulo de notificacion</string>
+    <string name="notification_text">Texto de notificación</string>
 </resources>
